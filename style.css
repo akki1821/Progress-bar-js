@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  padding: 20px;
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 20px rgb(12, 5, 5);
+  background-color: rgb(4, 99, 20);
+  border-radius: 30px;
+  color: rgb(228, 220, 220);
+  font-size: 25px;
+  font-weight: 45px;
+}
+#progressBar {
+  width: 100%;
+
+  background-color: blue;
+  position: obsolute;
+  top: 10px;
+  height: 30px;
+}
+#moveBar {
+  width: 00%;
+
+  background-color: rgb(13, 156, 13);
+
+  height: 30px;
+}
+button:hover{
+    background-color: rgb(19, 11, 139);
+}
